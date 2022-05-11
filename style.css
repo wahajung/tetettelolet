@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 233, 233);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar>ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2);
+}
+
+.navbar>ul>li {
+    float: right;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active:hover {
+    background-color: #4CAF50;
+
+}
+
+.profile-conteiner {
+
+    margin: 70px 20px;
+    background: white;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    height: 170px;
+}
+
+.profile-conteiner>div {
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.aku {
+    padding: 0 20px;
+    width: 250px;
+}
+
+.nama {
+    font-weight: bolder;
+    font-size: 23px;
+    margin-bottom: 8px;
+    width: 400px;
+}
+
+.profesi {
+    color: rgb(196, 189, 189);
+    margin-top: 0;
+}
+
+.kontak {
+    background: blue;
+    color: white;
+    border-color: white;
+    margin: 0 3px;
+    width: 100px;
+    height: 42px;
+    border-radius: 10%;
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.resume {
+    color: #4CAF50;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10%;
+    border-color: rgb(206, 204, 204);
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.5);
+    width: 100px;
+    height: 42px;
+}
+
+.profile {
+    font-weight: bold;
+}
+.profile>div{
+    border-left: 2px solid rgb(206, 204, 204);
+    padding-left: 10px;
+    margin-left: 50px;
+
+}
+div>p{
+    margin-top: 13px;
+    margin-bottom: 0;
+}
+.profile-isi {
+    color: rgb(196, 189, 189);
+    margin-left: 50px;
+}
+form {
+    background-color: #fff;
+    width: 1250px;
+margin: 0 20px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    margin-bottom: 5px;
+    /* position: static; */
+}
