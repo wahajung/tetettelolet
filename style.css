@@ -120,13 +120,37 @@ div>p{
 }
 form {
     background-color: #fff;
-    width: 1250px;
 margin: 0 20px;
+
 }
 label{
     font-weight: bold;
+
 }
 input{
     margin-bottom: 5px;
+    width: 1300px;
     /* position: static; */
 }
+.submit{
+    background: #4CAF50;
+    color: white;
+    border: none;
+}
+.submit:hover{
+    background: green;
+    color: white;
+    border: none;
+width: 1310px;
+}
+@media(max-width:992px) {
+    .submit { 
+          width:970px; 
+     }
+     .profile-conteiner{
+         width: 970px;
+     }
+     .input{
+         width: 970px;
+     }
+} 
